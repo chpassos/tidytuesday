@@ -24,18 +24,7 @@ crypt_df <- games %>%
   mutate(year = as.factor(year),
          type = as.character(type))
   
-  ungroup() %>%
-  group_by(year, type) %>%
-  distinct() %>%
-  drop_na() %>%
-  mutate(year = as.factor(year),
-         type = as.character(type))
-
-
-distinct(year, type, .keep_all = TRUE)
 # Viz --------------------------------
-
-# Color pallete
 pal <- c("#d22ed3", "#26db65")
 
 
