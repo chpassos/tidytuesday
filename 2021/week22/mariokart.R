@@ -42,4 +42,4 @@ p1 %>%
   theme(axis.text.x = element_text(angle = 45, size = 13, margin = margin(10,20)),
         axis.text.y = element_text(size = 13, margin = margin(10,20))) +
   theme_pander()
-ggsave("Arquivos_R/tidytuesday/mariokarti_plot.png")
+
