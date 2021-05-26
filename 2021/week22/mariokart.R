@@ -6,7 +6,7 @@ library(ggtext)
 library(ggthemes)
 
 font_files()
-font_add(family = "mariokartsans", "Arquivos_R/tidytuesday/mario_kart_ds/Mario-Kart-DS.ttf")
+font_add(family = "mariokartsans", "Mario-Kart-DS.ttf")
 font_families()
 showtext_auto()
 
