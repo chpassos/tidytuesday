@@ -8,7 +8,7 @@ Code and plots of the submissions to the [#tidytuesday](https://github.com/rford
   <div class="column">
 	<a href="2021/week12/steam_games.R"><img src="2021/week12/crypt_necrodancer.png"></a>
 	<a href="2021/week22/mariokart.R"><img src="2021/week22/mariokarti_plot.png"></a>
-	<a href="2021/week23/askamanager.R"><img src="2021/week23/askamanager.png"></a>
+	<a href="2021/week23/askamanager.R"><img src="2021/week23/salary_survey.png"></a>
   	
   </div>
 </div>
