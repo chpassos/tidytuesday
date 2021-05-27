@@ -4,6 +4,7 @@ library(RColorBrewer)
 library(plotly)
 library(hrbrthemes)
 library(viridis)
+library(htmlwidgets)
 
 # Read data
 survey <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-05-18/survey.csv')
@@ -42,9 +43,10 @@ p1 <- p1 %>%
 # Viz ---
 p <- ggplot(p1, aes(gender, education, fill = mean_annual_sal, text = text)) +
   geom_tile() +
-  scale_fill_viridis(name = "Salary") +
+  scale_fill_viridis(name = "Annual Earnings (USD)") +
   labs(x = "Level of Education",
        y = "Gender",
+       caption = "Source: Ask a Manager |  Viz: Carlos Passos @chpassos_",
        title = "Salary Differences according to sex and to education",
        subtitle = "Although higher degrees seems to impact your annual earnings, it looks like you can't compete with men that holds any degree level") +
   theme(plot.title = element_text(size = 24, hjust = 0.5, margin = margin(t = 10, b = 15, r = 0, l = 0)),
